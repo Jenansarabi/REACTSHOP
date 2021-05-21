@@ -25,7 +25,6 @@ import { useSelector } from 'react-redux'
                     aria-label="Toggle navigation"
                     >
                     <i className="fas fa-bars">
-                      <span>{totalCartQunatity}</span>
 
                     </i>
                  </button>
@@ -59,7 +58,10 @@ import { useSelector } from 'react-redux'
                         data-mdb-toggle="dropdown"
                         aria-expanded="false"
                     >
-                     <i className="fas fa-shopping-cart" ></i>
+                     <i className="fas fa-shopping-cart " >
+                     <span>{totalCartQunatity}</span>
+
+                     </i>
     
                     </span>
 
