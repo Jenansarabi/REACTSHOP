@@ -1,0 +1,24 @@
+.navbar{
+  background-color: rgba(94, 39, 91, 0.938);
+
+}
+.btn{
+  background-color:rgba(94, 39, 91, 0.938);
+}
+.image-width {
+    width: 90px;
+}
+.shopping-cart {
+    min-width: 450px;
+}
+.home {
+justify-content: center; 
+background-color: rgba(168, 196, 193, 0.952); 
+  color: rgba(6, 73, 78, 0.384);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+}
+
+.details {
+  margin-top: 5rem;
+}
